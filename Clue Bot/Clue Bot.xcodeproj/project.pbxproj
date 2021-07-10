@@ -52,8 +52,9 @@
 		93421A3A2699FC3900D99769 /* Clue Bot */ = {
 			isa = PBXGroup;
 			children = (
-				93421A3B2699FC3900D99769 /* Clue_BotApp.swift */,
-				93421A3D2699FC3900D99769 /* ContentView.swift */,
+				93421A4C269A01C400D99769 /* Objects */,
+				93421A4B269A018D00D99769 /* Scripts */,
+				93421A4A269A017300D99769 /* Views */,
 				93421A3F2699FC3A00D99769 /* Assets.xcassets */,
 				93421A442699FC3A00D99769 /* Info.plist */,
 				93421A412699FC3A00D99769 /* Preview Content */,
@@ -67,6 +68,29 @@
 				93421A422699FC3A00D99769 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93421A4A269A017300D99769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93421A3D2699FC3900D99769 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93421A4B269A018D00D99769 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				93421A3B2699FC3900D99769 /* Clue_BotApp.swift */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		93421A4C269A01C400D99769 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
