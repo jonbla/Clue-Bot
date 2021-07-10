@@ -12,6 +12,8 @@
 		93421A402699FC3A00D99769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93421A3F2699FC3A00D99769 /* Assets.xcassets */; };
 		93421A432699FC3A00D99769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93421A422699FC3A00D99769 /* Preview Assets.xcassets */; };
 		93421A50269A1B8A00D99769 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93421A4F269A1B8A00D99769 /* CardView.swift */; };
+		93421A52269A2AB600D99769 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93421A51269A2AB600D99769 /* SwipeView.swift */; };
+		93421A54269A364300D99769 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93421A53269A364300D99769 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		93421A422699FC3A00D99769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93421A442699FC3A00D99769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93421A4F269A1B8A00D99769 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		93421A51269A2AB600D99769 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		93421A53269A364300D99769 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			children = (
 				93421A3D2699FC3900D99769 /* ContentView.swift */,
 				93421A4F269A1B8A00D99769 /* CardView.swift */,
+				93421A51269A2AB600D99769 /* SwipeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		93421A4C269A01C400D99769 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				93421A53269A364300D99769 /* Card.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93421A3E2699FC3900D99769 /* ContentView.swift in Sources */,
+				93421A52269A2AB600D99769 /* SwipeView.swift in Sources */,
+				93421A54269A364300D99769 /* Card.swift in Sources */,
 				93421A50269A1B8A00D99769 /* CardView.swift in Sources */,
 				93421A3C2699FC3900D99769 /* Clue_BotApp.swift in Sources */,
 			);
@@ -299,6 +307,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Clue Bot/Preview Content\"";
 				DEVELOPMENT_TEAM = TMSRW3NA99;
 				ENABLE_PREVIEWS = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "Clue Bot/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +331,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Clue Bot/Preview Content\"";
 				DEVELOPMENT_TEAM = TMSRW3NA99;
 				ENABLE_PREVIEWS = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "Clue Bot/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

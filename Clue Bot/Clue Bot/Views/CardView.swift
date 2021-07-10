@@ -7,22 +7,16 @@
 
 import SwiftUI
 
-struct CardView: View {
-    let numberOfCards = 2
+struct CardView: View  {
+    var card:Card? = Card()
+    
     var body: some View {
-        HStack {
-            /*ForEach((1...numberOfCards), id: \.self) {
-                    Image("Back")
-                    let tempString = "\($0)…"
-                    //Text("\($0)…")
-            }*/
-        }
-        Image("Back").resizable().scaledToFit()
+        Image(card?.getType() ?? "Back").resizable().scaledToFit().clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 }
 
 struct Card_Previews: PreviewProvider  {
     static var previews: some View {
-        CardView()
+        CardView(card: Card(type: CardType.Library))
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var NumberofCards = 2
+    @State private var NumberofCards = 3
     let stepRange = 2...5
     
     var body: some View {
@@ -26,7 +26,6 @@ struct ContentView: View {
                     ForEach((1...NumberofCards), id: \.self) {
                             CardView()
                             let tempString = "\($0)…"
-                            //Text("\($0)…")
                     }
                 }
                 Spacer()
