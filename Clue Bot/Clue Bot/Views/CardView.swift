@@ -8,7 +8,15 @@
 import SwiftUI
 
 struct CardView: View {
+    let numberOfCards = 2
     var body: some View {
+        HStack {
+            /*ForEach((1...numberOfCards), id: \.self) {
+                    Image("Back")
+                    let tempString = "\($0)…"
+                    //Text("\($0)…")
+            }*/
+        }
         Image("Back").resizable().scaledToFit()
     }
 }

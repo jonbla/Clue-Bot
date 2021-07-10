@@ -23,10 +23,11 @@ struct ContentView: View {
                     .padding()
                     .font(.body)
                 HStack {
-                    CardView()
-                    CardView()
-                    CardView()
-                    CardView()
+                    ForEach((1...NumberofCards), id: \.self) {
+                            CardView()
+                            let tempString = "\($0)…"
+                            //Text("\($0)…")
+                    }
                 }
                 Spacer()
                 Stepper(value: $NumberofCards, in: stepRange, step: 1) {
