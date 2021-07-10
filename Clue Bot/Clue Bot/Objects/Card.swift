@@ -6,7 +6,9 @@
 //
 
 import Foundation
-public enum CardType {
+public enum CardType : CaseIterable{
+    case Back
+    
     case Blue
     case Green
     case Purple
@@ -30,12 +32,10 @@ public enum CardType {
     case Library
     case Lounge
     case Study
-    
-    case Back
 }
 
 var TypeDict = [CardType.Blue: "Mrs. Peacock",
-                        CardType.Green: "Mr. Gree",
+                        CardType.Green: "Mr. Green",
                         CardType.Purple: "Professor Plum",
                         CardType.Red: "Miss Scarlet",
                         CardType.White: "Mrs. White",

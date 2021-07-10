@@ -10,14 +10,15 @@ import SwiftUI
 struct SwipeView: View {
     var body: some View {
         List{
-            CardView()
-            CardView()
+            ForEach((CardType.allCases), id: \.self) {
+                CardView(card: Card(type: $0))
+            }
         }
     }
 }
 
 struct SwipeView_Previews: PreviewProvider {
     static var previews: some View {
-        SwipeView()
+        SwipeView().listRowBackground(Color.clear)
     }
 }
